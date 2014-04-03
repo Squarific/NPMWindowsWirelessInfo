@@ -1,17 +1,32 @@
 {
-  "name"          : "windowswifi",
-  "description"   : "Interface for wifi on windows.",
-  "homepage"      : "http://www.squarific.com",
-  "keywords"      : ["windowswifi", "windows", "wifi", "wireless"],
-  "author"        : "Filip Smets <almaaltevinden@gmail.com>",
-  "repository"    : {"type": "git", "url": "https://github.com/Squarific/npmwindowswireless.git"},
-  "main"          : "main.js",
-  "version"       : "0.1.0",
+  "name": "windowswifi",
+  "description": "Interface for wifi on windows.",
+  "homepage": "http://www.squarific.com",
+  "keywords": [
+    "windowswifi",
+    "windows",
+    "wifi",
+    "wireless"
+  ],
+  "author": "Filip Smets <almaaltevinden@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Squarific/npmwindowswireless.git"
+  },
+  "main": "main.js",
+  "version": "0.1.1",
   "licenses": [
     {
       "type": "UNLICENSE",
       "url": "https://raw.github.com/Squarific/NPMWindowsWirelessInfo/master/LICENSE"
     }
   ],
-  "files"         : ["main.js", "LICENSE", "README.md", "depend/WirelessNetView/readme.txt", "depend/WirelessNetView/WirelessNetView.exe", "depend/WirelessNetView/WirelessNetView.chm"]
+  "files": [
+    "main.js",
+    "LICENSE",
+    "README.md",
+    "depend/WirelessNetView/readme.txt",
+    "depend/WirelessNetView/WirelessNetView.exe",
+    "depend/WirelessNetView/WirelessNetView.chm"
+  ]
 }
