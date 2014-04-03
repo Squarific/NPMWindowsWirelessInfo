@@ -22,7 +22,7 @@
     }
   ],
   "files": [
-    "main.js",
+    "NPMWindowsWirelessInfo.js",
     "LICENSE",
     "README.md",
     "depend/WirelessNetView/readme.txt",
