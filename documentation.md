@@ -2,10 +2,10 @@ How to use (short)
 ##################
 
 First you need to include the module.
-    var wifiInfo = require('NPMWindowsWirelessInfo');
+    var windowswifi = require('windowswifi');
 
 Then you can get information about the currently available networks
-    wifiInfo.getNetworks();
+    windowswifi.getNetworks();
 	
 You can also add listeners (NOT YET FINISHED)
 
