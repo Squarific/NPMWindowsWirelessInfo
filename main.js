@@ -1,6 +1,6 @@
 function NPMWindowsWirelessInfo () {
-	this.helperName = "depend\\WirelessNetView\\WirelessNetView.exe";
-	this.helperOutputFile = "depend\\WirelessNetView\\tempOutput.txt";
+	this.helperName = __dirname + "\\depend\\WirelessNetView\\WirelessNetView.exe";
+	this.helperOutputFile = __dirname + "\\depend\\WirelessNetView\\tempOutput.txt";
 	this.exec = require("child_process").exec;
 	this.fs = require("fs");
 	
