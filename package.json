@@ -14,7 +14,7 @@
     "url": "https://github.com/Squarific/npmwindowswireless.git"
   },
   "main": "main.js",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "licenses": [
     {
       "type": "UNLICENSE",
