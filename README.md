@@ -1,15 +1,22 @@
 NPMWindowsWirelessInfo
-######################
+======================
 
 NPMWindowsWirelessInfo is a npm module for nodejs that allows you to get info from the WiFi networks a computer is connected to.
 
 How to use (short)
-##################
+==================
+This will be added to NPM later.
 
-If you want a long extensive documentation check out documentation.md
+  var NPMWindowsWirelessInfo = require("./main.js");
+  wifi = new NPMWindowsWirelessInfo();
+  
+  wifi.getNetworks(function (err, networks) {
+    if (err) throw err;
+    console.log(networks);
+  });
 
 LICENSE
-#######
+=======
 
 This is free and unencumbered software released into the public domain.
 
