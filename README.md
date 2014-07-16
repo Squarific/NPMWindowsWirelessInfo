@@ -7,13 +7,13 @@ How to use (short)
 ==================
 This will be added to NPM later.
 
-  var NPMWindowsWirelessInfo = require("./main.js");
-  wifi = new NPMWindowsWirelessInfo();
-  
-  wifi.getNetworks(function (err, networks) {
-    if (err) throw err;
-    console.log(networks);
-  });
+    var NPMWindowsWirelessInfo = require("./main.js");
+    wifi = new NPMWindowsWirelessInfo();
+    
+    wifi.getNetworks(function (err, networks) {
+        if (err) throw err;
+        console.log(networks);
+    });
 
 LICENSE
 =======
