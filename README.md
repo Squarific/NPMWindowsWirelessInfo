@@ -7,8 +7,7 @@ How to use (short)
 ==================
 This will be added to NPM later.
 
-    var NPMWindowsWirelessInfo = require("./main.js");
-    wifi = new NPMWindowsWirelessInfo();
+    var wifi = require("./main.js");
     
     wifi.getNetworks(function (err, networks) {
         if (err) throw err;
