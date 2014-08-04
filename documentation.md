@@ -1,5 +1,4 @@
-How to use (short)
-##################
+# How to use (short)
 
 First you need to include the module.
     var windowswifi = require('windowswifi');
@@ -9,11 +8,9 @@ Then you can get information about the currently available networks
 	
 You can also add listeners (NOT YET FINISHED)
 
-Methods
-#######
+# Methods
 
-LICENSE
-#######
+# LICENSE
 
 This is free and unencumbered software released into the public domain.
 
